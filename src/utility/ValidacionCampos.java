@@ -114,4 +114,31 @@ public class ValidacionCampos {
 		
 		return b;
 	}
+	
+	/**
+	* Metodo generico el cual recive como parametro el campo a validar y el patron de validacion del mismo
+	*
+	*@version 1, 03/09/2013
+    *@author Gerardo Perez
+	*@param String campo a validad
+	*@param String patron de validacion
+	*@return <b>"True":</b> Si lo que resibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
+	*/
+	public static boolean getPatronGenerico(String campo,String patron) {
+		
+		Matcher matcher = null;
+		Pattern fullRegex = null;
+		try {
+		    fullRegex = Pattern.compile(patron); //Patron de validacion solo numeros mas puntos
+		}
+		catch (RuntimeException e) {
+	        System.out.println("Erro con el patron de validacion");
+	    }
+	    try {
+	    	matcher = fullRegex.matcher(campo); //Valido que los datos q recibo esten dentro del patron de validacion
+	    } catch (RuntimeException e) {
+	        System.out.println("Erro al validar campo");
+	    }
+		return matcher.find();
+	}
 }
