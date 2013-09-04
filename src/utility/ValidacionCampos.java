@@ -19,7 +19,7 @@ public class ValidacionCampos {
 	*@version 1, 18/08/2013
         *@author Gerardo Perez
 	*@param String campo a validad
-	*@return <b>"True":</b> Si lo que resibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
+	*@return <b>"True":</b> Si lo que recibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
 	*/
 	public static boolean getSoloNumeros(String campo) {
 
@@ -40,7 +40,7 @@ public class ValidacionCampos {
 	*@version 1, 18/08/2013
         *@author Gerardo Perez
 	*@param String campo a validad
-	*@return <b>"True":</b> Si lo que resibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
+	*@return <b>"True":</b> Si lo que recibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
 	*/
 	public static boolean getSoloNumerosMasPunto(String campo) {
 
@@ -61,7 +61,7 @@ public class ValidacionCampos {
 	*@version 1, 29/08/2013
         *@author Gerardo Perez
 	*@param String campo a validad
-	*@return <b>"True":</b> Si lo que resibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
+	*@return <b>"True":</b> Si lo que recibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
 	*/
 	public static boolean getSoloNumerosMasGuion(String campo) {
 
@@ -82,7 +82,7 @@ public class ValidacionCampos {
 	*@version 1, 29/08/2013
         *@author Gerardo Perez
 	*@param String campo a validad
-	*@return <b>"True":</b> Si lo que resibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
+	*@return <b>"True":</b> Si lo que recibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
 	*/
 	public static boolean getSoloNumerosLetrasMasGuion(String campo) {
 
@@ -103,7 +103,7 @@ public class ValidacionCampos {
 	*@version 1, 29/08/2013
         *@author Gerardo Perez
 	*@param String campo a validad
-	*@return <b>"True":</b> Si lo que resibo no tiene caracteres </br> <b>"False":</b> Si el campo tiene mas de un caracter
+	*@return <b>"True":</b> Si lo que recibo no tiene caracteres </br> <b>"False":</b> Si el campo tiene mas de un caracter
 	*/
 	public static boolean getCantidadCaracteresCero(String campo) {
 		
@@ -122,7 +122,7 @@ public class ValidacionCampos {
     *@author Gerardo Perez
 	*@param String campo a validad
 	*@param String patron de validacion
-	*@return <b>"True":</b> Si lo que resibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
+	*@return <b>"True":</b> Si lo que recibo no se encuentra en el patron de validacion </br> <b>"False":</b> Si lo que resibo Se Encuntre dentro del patron de validacion
 	*/
 	public static boolean getPatronGenerico(String campo,String patron) {
 		
